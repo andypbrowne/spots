@@ -24,7 +24,7 @@ export default {
                 },
                 {
                   buildHookId: '',
-                  title: 'Blog Website',
+                  title: 'Spots',
                   name: '',
                   apiId: ''
                 }
