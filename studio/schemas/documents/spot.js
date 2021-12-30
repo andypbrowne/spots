@@ -32,7 +32,7 @@ export default {
             name: 'description',
             type: 'bodyPortableText',
             title: 'Description',
-            description: ''
+            description: 'Why did this spot make the list?'
         },
         {
             name: 'location',
