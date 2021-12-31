@@ -10,6 +10,7 @@ import category from './documents/category'
 import post from './documents/post'
 import spot from './documents/spot'
 import city from './documents/city'
+import list from './documents/list'
 
 // Object types
 import authorReference from './objects/authorReference'
@@ -28,6 +29,7 @@ export default createSchema({
     // in the studio.
     //post,
     spot,
+    list,
     city,
     category,
     //author,
