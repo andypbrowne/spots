@@ -1,9 +1,9 @@
-import {DocumentIcon, LinkIcon} from '@sanity/icons'
+import {PinIcon, LinkIcon} from '@sanity/icons'
 
 export default {
     name: 'spot',
     type: 'document',
-    icon: DocumentIcon,
+    icon: PinIcon,
     fields: [
         {
             name: 'title',
@@ -32,7 +32,7 @@ export default {
             name: 'description',
             type: 'bodyPortableText',
             title: 'Description',
-            description: ''
+            description: 'Why did this spot make the list?'
         },
         {
             name: 'location',
@@ -86,11 +86,11 @@ export default {
             media: 'image'
         },
         prepare({title = 'No title', slug, media}) {
-            const path = `/place/${slug.current}/`
+            const path = `/spot/${slug.current}/`
             return {
                 title,
                 media,
-                sutitle: path
+                subtitle: path
             }
         }
     }
