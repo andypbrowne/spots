@@ -66,6 +66,12 @@ export default {
             ]
         },
         {
+            name: 'mapLink',
+            type: 'url',
+            title: 'Map Link',
+            description: 'Past the google maps long url. Example: https://www.google.com/maps/place/Stumptown+Coffee+Roasters/@40.6888305,-73.9943626,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25bb9844ee7d1:0x4d30449e3f7b7116!8m2!3d40.6888967!4d-73.9921408'
+        },
+        {
             name: 'links',
             type: 'array',
             title: 'Links',
